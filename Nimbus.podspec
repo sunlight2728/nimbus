@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     "Stephane Moore" => "stephane.moore@gmail.com"
   }
   s.social_media_url   = "http://twitter.com/NimbusKit"
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/jverkoey/nimbus.git", :tag => s.version }
   s.requires_arc = true
 
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'src/css/src'
     ss.dependency 'Nimbus/Core'
     ss.dependency 'Nimbus/Textfield'
-    ss.dependency 'AFNetworking', '~> 2.6'
+    ss.dependency 'AFNetworking', '~> 3.0'
   end
 
   s.subspec 'Interapp' do |ss|
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   s.subspec 'NetworkImage' do |ss|
     ss.source_files = 'src/networkimage/src'
     ss.dependency 'Nimbus/Core'
-    ss.dependency 'AFNetworking', '~> 2.6'
+    ss.dependency 'AFNetworking', '~> 3.0'
   end
 
   s.subspec 'Overview' do |ss|

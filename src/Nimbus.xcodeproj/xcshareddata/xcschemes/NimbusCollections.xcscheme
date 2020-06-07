@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66C3A6A0143D61130048542F"
-               BuildableName = "libNimbusCss.a"
-               BlueprintName = "NimbusCss"
+               BlueprintIdentifier = "66FC98491703F9D7004E8FB8"
+               BuildableName = "libNimbusCollections.a"
+               BlueprintName = "NimbusCollections"
+               ReferencedContainer = "container:Nimbus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5BCE89D1D7539A300B6715F"
+               BuildableName = "NimbusCollectionsTests.xctest"
+               BlueprintName = "NimbusCollectionsTests"
                ReferencedContainer = "container:Nimbus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,7 +41,26 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "66FC98491703F9D7004E8FB8"
+            BuildableName = "libNimbusCollections.a"
+            BlueprintName = "NimbusCollections"
+            ReferencedContainer = "container:Nimbus.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5BCE89D1D7539A300B6715F"
+               BuildableName = "NimbusCollectionsTests.xctest"
+               BlueprintName = "NimbusCollectionsTests"
+               ReferencedContainer = "container:Nimbus.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -43,9 +76,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66C3A6A0143D61130048542F"
-            BuildableName = "libNimbusCss.a"
-            BlueprintName = "NimbusCss"
+            BlueprintIdentifier = "66FC98491703F9D7004E8FB8"
+            BuildableName = "libNimbusCollections.a"
+            BlueprintName = "NimbusCollections"
             ReferencedContainer = "container:Nimbus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -59,9 +92,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66C3A6A0143D61130048542F"
-            BuildableName = "libNimbusCss.a"
-            BlueprintName = "NimbusCss"
+            BlueprintIdentifier = "66FC98491703F9D7004E8FB8"
+            BuildableName = "libNimbusCollections.a"
+            BlueprintName = "NimbusCollections"
             ReferencedContainer = "container:Nimbus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
